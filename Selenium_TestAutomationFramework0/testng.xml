@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG">
+  <test thread-count="5" name="TestNG">
+    <classes>
+      <class name="tests.SearchProductUsingAutoSuggestTests"/>
+      <class name="tests.MyAccountTest"/>
+      <class name="tests.ContactUsTest"/>
+      <class name="tests.UserRegistrationTests"/>
+      <class name="tests.SearchProductTest"/>
+      <class name="tests.UserRegistrationTestsWithDDTAndJsonFile"/>
+    </classes>
+  </test> <!-- TestNG -->
+</suite> <!-- TestNG -->
